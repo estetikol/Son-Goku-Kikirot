@@ -1,0 +1,348 @@
+html,body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+	overflow-x: hidden;
+}
+
+header .title img {
+    padding-top: 40px;
+    padding-bottom: 0%;
+    width: 680px;
+    height: 720px;
+    display: inline-block;
+    opacity: 100%;
+}
+
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    word-spacing: 1.5px;
+}
+
+.content .h2 {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    word-spacing: 1.5px;
+}
+
+.content span {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px 0px;
+    word-spacing: 1px;
+    font-size: 14px;
+}
+
+img.big-image {
+    max-width: 100%;
+}
+
+p.caption {
+    font-size: 16px;
+    color: rgb(85,85,85);
+    font-style: italic;
+    text-align: center;
+}
+
+p.caption span{
+    font-size: 16px;
+    color: rgb(85,85,85);
+    font-style: italic;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: rgb(0, 0, 25);
+    text-decoration: none;
+}
+
+.image-container h3{
+    font-size: 14px;
+    line-height: 0px;
+}
+
+.image-section {
+    text-align: center;
+    padding: 2rem 0;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rounded-image-container {
+    flex: 1;
+    padding: 0 1rem;
+    text-align: center;
+}
+.action-image {
+    width: 120px; 
+    height: 120px;
+    border-radius: 10%;
+}
+.rounded-image-container {
+    flex: 1;
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 16px;
+}
+.rounded-image {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 5px solid #C2E4EC;
+    border-radius: 174px;
+    background-color: blue;
+    box-shadow: 0px 5px 5px 3px darkblue;
+    transition-property: ease-out;
+    transition: 400ems;
+}
+.image-caption {
+    font-size: 1rem;
+    color: #7A2538;
+    margin-top: 0.5rem;
+}
+
+.made-by ul li i{
+    color: none;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 40px 20px;
+    background-color: rgb(255,165,0);
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li a {
+    display: inline-block;
+    margin: 0 5px;
+    color: aliceblue;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+    color: aliceblue;
+}
+
+.icons{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.icons a{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5px;
+    word-spacing: none;
+}
+
+/*Friends*/
+* {
+	font-family: Nunito, sans-serif;
+  }
+  
+  .text-blk {
+	line-height: 25px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+  }
+  
+  .text-blk a{
+	line-height: 25px;
+	margin-top: 0px;
+	text-shadow: 1px 1px 2px #FF4D00;
+  }
+
+  .responsive-container-block {
+	min-height: 75px;
+	height: fit-content;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	justify-content: flex-start;
+  }
+  
+  .inner-container {
+	max-width: 1320px;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 80px;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-left: auto;
+  }
+  
+  .section-head-text {
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: 700;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 18px;
+	margin-left: 0px;
+  }
+  
+  .section-subhead-text {
+	color: rgb(72, 72, 72);
+	font-size: 20px;
+	line-height: 27px;
+	max-width: 670px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 80px;
+	margin-left: 0px;
+  }
+  
+  .card {
+	width: 340px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 30px;
+	padding-right: 25px;
+	padding-bottom: 40px;
+	padding-left: 25px;
+	box-shadow: #FF4D00 0px 3px 24px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	background-color: rgb(255, 255, 255);
+  }
+  
+  .img-wrapper {
+	width: 175px;
+	height: 175px;
+	clip-path: circle(50% at 50% 50%);
+  }
+  
+  .name {
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 28px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	line-height: 27px;
+  }
+  
+  .position {
+	line-height: 26px;
+	color: #FF4D00;
+	font-weight: 700;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+  }
+  
+  .testimonial {
+	color: rgb(122, 122, 122);
+	font-size: 18px;
+	line-height: 27px;
+	text-align: left;
+  }
+  
+  .outer-container {
+	background-color: rgb(250, 250, 250);
+	padding-top: 0px;
+	padding-right: 50px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+  }
+  
+  .container-block {
+	min-height: 75px;
+	height: fit-content;
+	width: 100%;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	display: block;
+  }
+  
+  .swiper.team-swiper {
+	max-width: 100%;
+	width: 100%;
+	height: fit-content;
+  }
+  
+  .swiper-slide {
+	height: auto;
+    float: left; /* Add this line */
+    margin-right: 10px; /* Add some spacing between images if needed */
+	height: auto;
+	padding: 0 10px; /* Add padding from left and right */
+  }
+  
+  .swiper-pagination.container-block {
+	position: relative;
+	top: 0px;
+	margin-top: 36px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+  }
+  
+  .swiper-container-horizontal >
+  
+  .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin-top: 0px;
+	margin-right: 4px;
+	margin-bottom: 0px;
+	margin-left: 4px;
+	height: 12px;
+	width: 12px;
+	background-image: initial;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-position-x: initial;
+	background-position-y:  initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: rgb(0, 166, 127);
+  }
+  
+  .swiper-wrapper {
+	position: relative;
+	top: 0px;
+  }
+  
+  @media (max-width: 1024px) {
+	.swiper-slide {
+	  justify-content: center;
+	}
+  }
+  
+  @media (max-width: 500px) {
+	.outer-container {
+	  padding-top: 0px;
+	  padding-right: 20px;
+	  padding-bottom: 0px;
+	  padding-left: 20px;
+	}
+  }
