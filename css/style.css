@@ -1,5 +1,5 @@
 html,body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Nunito, sans-serif;
     margin: 0;
 	overflow-x: hidden;
 }
@@ -12,7 +12,6 @@ header .title img {
     display: inline-block;
     opacity: 100%;
 }
-
 
 .content {
     max-width: 900px;
@@ -149,11 +148,15 @@ footer ul li {
     padding-top: 5px;
     word-spacing: none;
 }
+/*Container-icons*/
+.container-icons a{
+ color: #FF0000;
+ align-items: center;
+ margin: 0 2px;
+ margin-top: 20px;
+}
 
 /*Friends*/
-* {
-	font-family: Nunito, sans-serif;
-  }
   
   .text-blk {
 	line-height: 25px;
@@ -198,9 +201,10 @@ footer ul li {
 	line-height: 60px;
 	font-weight: 700;
 	margin-top: 0px;
-	margin-right: 0px;
+	margin-right: 140px;
 	margin-bottom: 18px;
 	margin-left: 0px;
+	text-align: left;
   }
   
   .section-subhead-text {
@@ -209,7 +213,7 @@ footer ul li {
 	line-height: 27px;
 	max-width: 670px;
 	margin-top: 0px;
-	margin-right: 0px;
+	margin-right: 140px;
 	margin-bottom: 80px;
 	margin-left: 0px;
   }
@@ -228,7 +232,6 @@ footer ul li {
 	border-top-right-radius: 6px;
 	border-bottom-right-radius: 6px;
 	border-bottom-left-radius: 6px;
-	background-color: rgb(255, 255, 255);
   }
   
   .img-wrapper {
@@ -258,7 +261,7 @@ footer ul li {
   }
   
   .testimonial {
-	color: rgb(122, 122, 122);
+	color: rgb(10, 2, 2);
 	font-size: 18px;
 	line-height: 27px;
 	text-align: left;
@@ -335,6 +338,7 @@ footer ul li {
   @media (max-width: 1024px) {
 	.swiper-slide {
 	  justify-content: center;
+	  padding-top: 60px;
 	}
   }
   
