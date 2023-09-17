@@ -131,11 +131,17 @@ footer ul {
 footer ul li {
     display: inline-block;
     margin: 0 5px;
+	color: rgb(247, 248, 248);
 }
 
 footer ul li a {
-    color: aliceblue;
+    color: rgb(247, 248, 248);
     text-decoration: none;
+}
+
+.icons{
+    text-align: center;
+    padding-top: 5px;
 }
 
 .icons a{
